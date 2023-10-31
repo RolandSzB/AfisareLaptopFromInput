@@ -1,0 +1,15 @@
+<web-app>
+
+	<servlet>
+		<servlet-name> laptop-servlet </servlet-name>
+		<servlet-class> com.rapid.LatopName</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<url-pattern>/laptops</url-pattern>
+		<servlet-name> laptop-servlet</servlet-name>
+	</servlet-mapping>
+	
+
+
+</web-app>
